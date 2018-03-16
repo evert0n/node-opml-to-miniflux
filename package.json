@@ -1,0 +1,30 @@
+{
+  "name": "node-opml-to-miniflux",
+  "version": "1.0.0",
+  "description": "OPML to Miniflux",
+  "main": "cli.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/evert0n/node-opml-to-miniflux.git"
+  },
+  "keywords": [
+    "opml",
+    "miniflux"
+  ],
+  "author": "Everton Yoshitani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evert0n/node-opml-to-miniflux/issues"
+  },
+  "homepage": "https://github.com/evert0n/node-opml-to-miniflux#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "node-opml-parser": "^1.0.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "yargs": "^11.0.0"
+  }
+}
