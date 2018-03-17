@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "OPML to Miniflux",
   "main": "cli.js",
+  "bin": {
+    "opml-to-miniflux": "cli.js"
+  },
   "scripts": {
     "test": "npm test"
   },
